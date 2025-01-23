@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D-MART</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="Dmart.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid p-0 ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="image/dmart_ready_logo (1).svg" class="img-fluid" width="122px"
+            height="49" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <div class="text-center p-1 bor">
+                  <span><i class="bi bi-geo-alt"></i></span>
+                  <span>411005</span>
+                  <span><i class="bi bi-chevron-down"></i></span>
+                  <p>Pune</p>
+                </div>
+              </button>
+            </li>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header text-bg-success">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Modal Where should we deliver?
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body dialog-div">
+                    <input class="form-input w-100 input-modal" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <li class="nav-item">
+              <div class="pt-3 delivery">
+                <p class="m-0">
+                  Earliest
+                  <span class="text-success">Home Delivery</span> available
+                </p>
+                <p class="fw-medium">
+                  <span style="color: orange"><i class="bi bi-alarm"></i></span>&nbsp; Tomorrow 07:00 AM - 10:00 AM
+                </p>
+              </div>
+            </li>
+            <li class="nav-item">
+              <form class="d-flex mt-3 ms-2 position-relative" role="search" style="height: 45px;">
+                <div>
+                  <input class="form-control me-2" type="search" aria-label="Search" id="searchInput"
+                    style="height: 45px;" />
+                  <div id="animantedPlaceholder" class="animation-placeholder"></div>
+                </div>
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link mt-3 sign" aria-disabled="true">Sing In/Register</button>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Disabled</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid border border-top-2 border-bottom-2 p-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link pe-5 border-end" href="#"><i class="bi bi-list pe-1"></i>All Cptegories </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Ready To Cook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Homw Appliances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Chookware</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serveware</a>
+            </li>
+            <li class="nav-item">
+              <Cleaners class="nav-link" href="#">Cleaners</a>
+            </li>
+            <li class="nav-item">
+              <Cleaners class="nav-link" href="#">Detergent & Fabric Care</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--container fluid end here-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="Dmart.js"></script>
+</body>
+
+</html>

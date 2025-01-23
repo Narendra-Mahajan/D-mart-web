@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bor{
+    background-color: rgb(205, 231, 240);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.input-model{
+    height: 40px;
+}
+.dialog-div{
+    height: 350px;
+}
+.delivery p{
+    font-size: 14px;
+}
+#searchInput{
+    width: 400px;
+    position: relative;
+}
+.animation-placeholder{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+@media (max-width:'768px'){
+
+}
+
+
+
+@media (max-width:'1200px'){
+    
+}
